@@ -1,0 +1,9 @@
+<ul>
+  {{#each model as |question|}}
+     <li>
+       <img src="{{question.image}}" alt="{{question.notes}}"><small>Click to Answer</small><br>
+       {{question.main}} by{{question.author}}<br>
+       {{question.notes}}
+     </li>
+  {{/each}}
+</ul>
