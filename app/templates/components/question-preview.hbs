@@ -1,3 +1,11 @@
-<img src="{{question.image}}" alt="{{question.notes}}"><small>Click to Answer</small><br>
-{{question.main}} by{{question.author}}<br>
-{{question.notes}}
+<img src="{{question.image}}" alt="{{question.notes}}"><h5>Click to Answer</h5><br>
+<h3>"{{question.main}}?"</h3>
+<h4>by {{question.author}}</h4>
+{{#if notesHiding}}
+  <button class="upsidedown" {{action 'unhideNotes'}}>Unhide Notes
+  </button>
+{{else}}
+  <h3 class="notes">{{question.notes}}</h3>
+  <button class="gone" {{action 'hideNotes'}}>Hide Notes
+  </button>
+{{/if}}
