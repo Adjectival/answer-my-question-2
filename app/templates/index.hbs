@@ -1,7 +1,7 @@
 <div class="flexed">
   {{#each model as |question|}}
      <div class="question-card">
-      {{question-preview question=question}}
+      {{question-preview question=question deleteQuestion="deleteQuestion"}}
      </div>
   {{/each}}
 </div>

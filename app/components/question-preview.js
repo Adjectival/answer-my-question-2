@@ -9,5 +9,10 @@ export default Ember.Component.extend({
     hideNotes() {
       this.set('notesHiding', true);
     },
+    delete(question) {
+      if (confirm('Art thou sure?')) {
+        this.sendAction('deleteQuestion', question)
+      }
+    }
   }
 });
