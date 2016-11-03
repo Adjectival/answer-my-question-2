@@ -1,0 +1,21 @@
+<div class="container">
+  <div>
+    {{#link-to 'index'}}
+    <img src="assets/images/a_my_q_logo.png">
+    {{/link-to}}
+    <div class="menu">
+      {{#link-to 'index'}}
+      Home
+      {{/link-to}}
+      {{#link-to 'about'}}
+      About
+      {{/link-to}}
+      <a href= 'https://www.learnhowtoprogram.com/javascript'>
+      Epicodus
+      </a>
+    </div>
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>
