@@ -1,29 +1,41 @@
-# Answer-my-question
+# Answer my Question :smiling_imp::question::no_good:
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+![screenshot](Wireframe.png)
+
+## Development Goals / This App...
+* Has the content of the question itself, an author and additional notes.
+* Offers answers which have the content of the answer and the author.
+* Includes a header and/or navbar that appears on all pages containing the name of your site and a link to the home page.
+* Lists all questions on the homepage, with only the question and the name of the author showing.
+* Users can click on a question to view additional information.
+* Allows users to add and edit questions.
+* Allows users to add answers to a question, added & viewed on the same page as the question they respond to.
+* Application template contains header with link(s).
+* Data is stored in and retrieved from Ember Data models and Firebase.
+* Components are used to create display and behavior for your templates.
+* One-to-many relationship exists between Question and Answers.
+* Employs custom styling.
+
+![screenshot](screenshot.png)
 
 ## Prerequisites
-
 You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
 * [Bower](http://bower.io/)
 * [Ember CLI](http://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd answer-my-question`
-* `npm install`
-* `bower install`
+* `$ git clone <repository-url>` this repository's URL
+* `$ cd answer-my-question`
+* `$ npm i && bower i`
 
-## Running / Development
+## Spinning Up / Development
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* `$ ember s`
+* Now visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
 
@@ -31,17 +43,13 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Running Tests
 
-* `ember test`
-* `ember test --server`
+* `$ ember test`
+* `$ ember test --server`
 
 ### Building
 
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
+* `$ ember build` (development)
+* `$ ember build --environment production` (production)
 
 ## Further Reading / Useful Links
 
@@ -50,4 +58,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
