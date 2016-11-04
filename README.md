@@ -1,10 +1,10 @@
 # Answer my Question 2 :smiling_imp::question::no_good:
 
-![screenshot](CR3.png)
+![screenshot](CR4.png)
 
 ## Development Goals / This App...
+[] A service has been implemented successfully.
 * The project contains at least one functioning computed property.
-* A service has been implemented successfully.
 * At least one custom helper is being used to format data.
 * Has the content of the question itself, an author and additional notes.
 * Offers answers which have the content of the answer and the author.
