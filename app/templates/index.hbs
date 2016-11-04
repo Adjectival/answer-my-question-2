@@ -7,3 +7,11 @@
      </div>
   {{/each}}
 </div>
+
+<div class="flexed">
+  {{#each model as |answer|}}
+     <div class="question-card">
+      "{{answer.main}}" ~ {{answer.author}}
+     </div>
+  {{/each}}
+</div>
