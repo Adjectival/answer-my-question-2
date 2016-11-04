@@ -20,6 +20,10 @@ body {
   font-weight: bold;
   color: red;
 }
+.Qimg {
+  max-width: 400px;
+  max-height: 300px;
+}
 
 .field {
   border-radius: 8px;
@@ -38,6 +42,7 @@ body {
 button {
   border-radius: 20px;
   padding: 8px;
+  color: black;
   background-color: red;
   font-family: fantasy;
   font-weight: bolder;

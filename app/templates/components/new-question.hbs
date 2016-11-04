@@ -1,0 +1,17 @@
+{{#if newQuestionFormBool}}
+<div class="flexed">
+<form>
+  <div class="field"><label for="main">Question</label>
+  {{input value=main id="main"}}</div>
+  <div class="field"><label for="notes">Hidden Notes</label>
+  {{input value=notes id="notes"}}</div>
+  <div class="field"><label for="author">Asked By</label>
+  {{input value=author id="author"}}</div>
+  <div class="field"><label for="image">ImageURL</label>
+  {{input value=image id="image"}}</div>
+<button {{action 'save'}}>Ask</button>
+</form>
+</div>
+{{else}}
+  <button class="upsidedown" {{action 'unhideNewQuestion'}}>Ask a Question</button>
+{{/if}}

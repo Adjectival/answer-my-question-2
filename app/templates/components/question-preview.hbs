@@ -1,7 +1,7 @@
-<img src="{{question.image}}" alt="{{question.notes}}"><h5>Click to Answer</h5><br>
+<img class="Qimg" src="{{question.image}}" alt="{{question.notes}}"><h5>Click to Answer</h5><br>
 <h3>"{{question.main}}?"</h3>
 <h4>by {{question.author}}</h4>
-{{#if notesHiding}}
+{{#if notesHideBool}}
   <button class="upsidedown" {{action 'unhideNotes'}}>Unhide Notes
   </button>
 {{else}}
