@@ -1,8 +1,11 @@
-# Answer my Question :smiling_imp::question::no_good:
+# Answer my Question 2 :smiling_imp::question::no_good:
 
-![screenshot](Wireframe.png)
+![screenshot](CR3.png)
 
 ## Development Goals / This App...
+* The project contains at least one functioning computed property.
+* A service has been implemented successfully.
+* At least one custom helper is being used to format data.
 * Has the content of the question itself, an author and additional notes.
 * Offers answers which have the content of the answer and the author.
 * Includes a header and/or navbar that appears on all pages containing the name of your site and a link to the home page.
@@ -16,8 +19,6 @@
 * One-to-many relationship exists between Question and Answers.
 * Employs custom styling.
 
-![screenshot](CR3.png)
-
 ## Prerequisites
 You will need the following things properly installed on your computer.
 
@@ -29,7 +30,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `$ git clone <repository-url>` this repository's URL
-* `$ cd answer-my-question`
+* `$ cd answer-my-question-2`
 * `$ npm i && bower i`
 
 ## Spinning Up / Development
