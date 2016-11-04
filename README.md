@@ -16,7 +16,7 @@
 * One-to-many relationship exists between Question and Answers.
 * Employs custom styling.
 
-![screenshot](screenshot.png)
+![screenshot](CR3.png)
 
 ## Prerequisites
 You will need the following things properly installed on your computer.
