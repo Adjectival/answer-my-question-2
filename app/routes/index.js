@@ -5,6 +5,10 @@ export default Ember.Route.extend({
     return this.store.findAll('question');
   },
   actions: {
+    destroyQuestion(question) {
+      question.destroyRecord();
+      this.transitionTo('index');
+    },
     saveQuestion(params) {
       var newQuestion = this.store.createRecord('question', params);
       newQuestion.save();
@@ -13,7 +17,7 @@ export default Ember.Route.extend({
     update(question, params) {
       console.log("OK");
       Object.keys(params).forEach(function(key) {
-         if(params[key!==undefined]) {
+         if(params[key]!==undefined) {
            question.set(key, params[key]);
          }
        });

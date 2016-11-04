@@ -1,4 +1,4 @@
-{{#if showEditQuestion}}
+{{#if updateQuestionForm}}
 <hr>
 <h3>Please edit {{question.author}}'s question.</h3>
 <div class="flexed">
@@ -15,5 +15,5 @@
 </form>
 </div>
 {{else}}
-  <button class="upsidedown" {{action 'showEditQuestion'}}>Edit Question</button>
+  <button class="upsidedown" {{action 'updateQuestionForm'}}>Edit Question</button>
 {{/if}}

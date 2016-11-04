@@ -1,8 +1,9 @@
 {{new-question saveQuestion="saveQuestion"}}
+
 <div class="flexed">
   {{#each model as |question|}}
      <div class="question-card">
-      {{question-tile question=question}}
+      {{question-tile question=question destroyQuestion="destroyQuestion" update="update"}}
      </div>
   {{/each}}
 </div>
