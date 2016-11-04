@@ -1,4 +1,4 @@
-<img class="Qimg" src="{{question.image}}" alt="{{question.notes}}"><h5>Click to Answer</h5><br>
+{{#link-to 'question' question.id}}<img class="Qimg" src="{{question.image}}" alt="{{question.notes}}"><h5>Click to Answer</h5>{{/link-to}}<br>
 <h3>"{{question.main}}?"</h3>
 <h4>by {{question.author}}</h4>
 {{#if notesHideBool}}
