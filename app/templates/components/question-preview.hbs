@@ -1,7 +1,8 @@
 {{#link-to 'question' question.id}}<img class="smallimg" src="{{question.image}}" alt="{{question.notes}}"><h5>Click to Answer</h5>{{/link-to}}<br>
 <h3>"{{question.main}}?"</h3>
 <h4>by {{question.author}}</h4>
-{{#if notesHideBool}}
+{{update-question question=question update="update"}}
+{{#if notesHide}}
   <button class="upsidedown" {{action 'unhideNotes'}}>Unhide Notes
   </button>
 {{else}}
