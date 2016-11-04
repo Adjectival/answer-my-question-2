@@ -12,11 +12,17 @@
       "main" : "Where is he?",
       "notes" : "I think he's hiding in the lights"
     },
-    "-KVXP7JNqevwAGJt8XJE" : {
+    "-KVgd5n9gvqoD5MvajKS" : {
+      "author" : "Nancy",
+      "image" : "https://images.hellogiggles.com/uploads/2016/08/15074658/nancy.jpg",
+      "main" : "Does Steve ask about me?",
+      "notes" : "Barb knows everything"
+    },
+    "-KVjw76xlrivcZuWPjmI" : {
       "author" : "11",
-      "image" : "http://www.telegraph.co.uk/content/dam/on-demand/2016/07/29/stranger-things-eleven-star-large_trans++QoamytKZXL_WGgCeRLuXZwDFfz1J2Xw7AAgFCRzwvx4.jpg",
-      "main" : "Why me?",
-      "notes" : "Hiding can help"
+      "image" : "https://lovelace-media.imgix.net/uploads/1746/53da7170-37f5-0134-0ca7-0a0b9a139ea7.jpg",
+      "main" : "Where's home?",
+      "notes" : "Maybe the upsidedown?"
     }
   }
 }

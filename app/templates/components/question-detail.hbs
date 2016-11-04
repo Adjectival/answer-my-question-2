@@ -2,5 +2,5 @@
 <h3>"{{question.main}}?"</h3>
 <h4>by {{question.author}}</h4>
 <h3>{{question.notes}}</h3>
-
+{{update-question question=question update="update"}}
 <button class="gone" {{action 'delete' question}}>Erase Question</button>

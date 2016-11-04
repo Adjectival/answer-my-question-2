@@ -6,6 +6,9 @@ export default Ember.Component.extend({
       if (confirm('Art thou sure?')) {
         this.sendAction('delete', question);
       }
-    }
+    },
+    update(rental, params) {
+      this.sendAction('update', question, params);
+    },
   }
 });

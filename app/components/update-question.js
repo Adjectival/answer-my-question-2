@@ -1,10 +1,10 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  editQuestionBool: false,
+  showEditQuestion: false,
   actions: {
     showEditQuestion() {
-      this.set('editQuestionBool', true);
+      this.set('showEditQuestion', true);
     },
     update(question) {
       var params = {
@@ -13,7 +13,7 @@ export default Ember.Component.extend({
         author: this.get('author'),
         image: this.get('image')
       };
-      this.set('editQuestionBool', false);
+      this.set('showEditQuestion', false);
       this.sendAction('update', question, params);
     }
   }
