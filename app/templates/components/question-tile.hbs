@@ -1,6 +1,7 @@
-{{#link-to 'question' question.id}}<img class="smallimg" src="{{question.image}}" alt="{{question.notes}}"><h5>Click to Answer</h5>{{/link-to}}<br>
+{{#link-to 'question' question.id}}<img class="smallimg" src="{{question.image}}" alt="{{question.notes}}"><div class="stretched"><div>Click to Answer!</div><div>Currently {{answerCount}} answers</div></div>{{/link-to}}
 <h3>"{{question.main}}?"</h3>
 <h4>by {{question.author}}</h4>
+{{question-popularity question}}
 
 {{#if notesHide}}
   <button class="upsidedown" {{action 'unhideNotes'}}>Unhide Notes

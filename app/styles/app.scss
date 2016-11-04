@@ -53,8 +53,11 @@ body {
   flex-wrap: wrap;
 }
 .stretched {
-  align-items: stretch;
+  display: flex;
+  // align-items: stretch;
+  justify-content: space-between;
 }
+
 
 button {
   border-radius: 20px;

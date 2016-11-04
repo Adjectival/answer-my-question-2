@@ -4,7 +4,6 @@
   {{#each model.questions as |question|}}
      <div class="question-card">
       {{question-tile question=question destroyQuestion="destroyQuestion" update="update"}}
-      {{question-popularity question}}
      </div>
   {{/each}}
 </div>
