@@ -1,7 +1,7 @@
 {{new-question saveQuestion="saveQuestion"}}
 
 <div class="flexed">
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
      <div class="question-card">
       {{question-tile question=question destroyQuestion="destroyQuestion" update="update"}}
      </div>
@@ -9,7 +9,7 @@
 </div>
 
 <div class="flexed">
-  {{#each model as |answer|}}
+  {{#each model.answers as |answer|}}
      <div class="question-card">
       "{{answer.main}}" ~ {{answer.author}}
      </div>

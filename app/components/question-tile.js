@@ -8,9 +8,6 @@ export default Ember.Component.extend({
     },
     hideNotes() {
       this.set('notesHide', true);
-    },
-    // update(question, params) {
-    //   this.sendAction('update', question, params);
-    // }
+    }
   }
 });

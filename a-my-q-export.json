@@ -24,5 +24,15 @@
       "main" : "Where's home?",
       "notes" : "Maybe the upsidedown?"
     }
+  },
+  "answers" : {
+    "-0" : {
+      "author" : "Jonathan",
+      "main" : "Has Mom gone crazy"
+    },
+    "-1" : {
+      "author" : "Joyce",
+      "main" : "Where is he?"
+    }
   }
 }
