@@ -1,0 +1,19 @@
+{{#if editQuestionBool}}
+<hr>
+<h3>Please edit {{question.author}}'s question.</h3>
+<div class="flexed">
+<form>
+  <div class="field"><label for="main">Question</label>
+  {{input value=main id="main" placeholder=question.main}}</div>
+  <div class="field"><label for="notes">Hidden Notes</label>
+  {{input value=notes id="notes" placeholder=question.notes}}</div>
+  <div class="field"><label for="author">Asked By</label>
+  {{input value=author id="author" placeholder=question.author}}</div>
+  <div class="field"><label for="image">ImageURL</label>
+  {{input value=image id="image" placeholder=question.image}}</div>
+<button {{action 'update' question}}>Save this Question</button>
+</form>
+</div>
+{{else}}
+  <button class="upsidedown" {{action 'showEditQuestion'}}>Edit Question</button>
+{{/if}}
