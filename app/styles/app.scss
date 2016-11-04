@@ -20,9 +20,13 @@ body {
   font-weight: bold;
   color: red;
 }
-.Qimg {
+.smallimg {
   max-width: 400px;
   max-height: 300px;
+}
+.largeimg {
+  max-width: 700px;
+  max-height: 450px;
 }
 
 .field {
@@ -46,8 +50,8 @@ button {
   background-color: red;
   font-family: fantasy;
   font-weight: bolder;
-  font-size: 24px;
-  margin: 20px;
+  font-size: 20px;
+  margin: 15px;
 }
 .gone {
   background-color: steelblue;
