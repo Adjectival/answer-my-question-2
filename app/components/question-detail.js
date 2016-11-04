@@ -7,7 +7,7 @@ export default Ember.Component.extend({
         this.sendAction('destroyQuestion', question);
       }
     },
-    update(rental, params) {
+    update(question, params) {
       this.sendAction('update', question, params);
     },
     destroyAnswer(answer) {
