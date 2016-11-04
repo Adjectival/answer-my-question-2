@@ -4,3 +4,11 @@
 <h3>{{question.notes}}</h3>
 
 <button class="gone" {{action 'delete' question}}>Delete </button>
+<hr>
+<div class="flexed">
+  {{#each question.answers as |answer|}}
+     <div class="answer-card">
+      "{{answer.main}}" ~ {{answer.author}}
+     </div>
+  {{/each}}
+</div>
