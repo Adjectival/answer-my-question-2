@@ -9,6 +9,11 @@ export default Ember.Route.extend({
       question.destroyRecord();
       this.transitionTo('index');
     },
+    destroyAnswer(answer) {
+      console.log("OK, made it to route handler");
+      answer.destroyRecord();
+      this.transitionTo('index');
+    },
     update(question, params) {
       Object.keys(params).forEach(function(key) {
          if(params[key]!==undefined) {

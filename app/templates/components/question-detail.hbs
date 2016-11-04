@@ -7,8 +7,6 @@
 <hr>
 <div class="flexed">
   {{#each question.answers as |answer|}}
-     <div class="answer-card">
-      "{{answer.main}}" ~ {{answer.author}}
-     </div>
+    {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
   {{/each}}
 </div>
