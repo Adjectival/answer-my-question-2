@@ -1,14 +1,15 @@
-.menu {
-  font-size: 2em;
-  color: firebrick;
-}
 
 body {
   background-color: #050916;
+  background-image: url('https://3.bp.blogspot.com/-Xzq2xzvUPuY/V7Edo2xwLQI/AAAAAAAAIkc/TwOUcHAbNf8WPX1lQjkxOwXk-TtHVeM9gCLcB/s1600/st1woods.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   color: firebrick;
-  font-family: fantasy;
+  font-family: "Prociono", serif;
 }
-
+// index tiles
 .question-card {
   border-color: firebrick;
   border-style: groove;
@@ -37,16 +38,31 @@ body {
   max-height: 600px;
 }
 .helperText {
-  font-family: monospace;
+  font-family: 'Lato', sans-serif;
   font-size: 28px;
   color: seashell;
 }
+div {
+  div {
+    font-size: 18px;
+  }
+}
 
+// menu & forms
+.menu {
+  font-size: 2em;
+  color: firebrick;
+}
 .field {
   border-radius: 8px;
   padding: 8px;
   margin: 8px;
 }
+hr {
+  width: 80%;
+  height: 3px;
+}
+
 
 .flexed {
   display: flex;
@@ -57,12 +73,12 @@ body {
   justify-content: space-between;
 }
 
+// buttons
 button {
   border-radius: 20px;
   padding: 8px;
   color: black;
   background-color: red;
-  font-family: fantasy;
   font-weight: bolder;
   font-size: 20px;
   margin: 15px;
@@ -74,7 +90,3 @@ button {
   background-color: black;
   color: seashell;
 }
- hr {
-   width: 80%;
-   height: 3px;
- }
