@@ -3,7 +3,7 @@
 ![screenshot](CR4.png)
 
 ## Development Goals / This App...
-[] A service has been implemented successfully.
+* A service has been implemented successfully.
 * The project contains at least one functioning computed property.
 * At least one custom helper is being used to format data.
 * Has the content of the question itself, an author and additional notes.
