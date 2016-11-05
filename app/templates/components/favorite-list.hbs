@@ -1,0 +1,8 @@
+<h2>Favorites</h2>
+<hr>
+{{#each favoriteQuestions.questions as |question|}}
+  <div class="card-small">
+    {{#link-to 'question' question.id}}<img class="smallimg" src="{{question.image}}" alt="{{question.notes}}">
+    <span class="blackback">"{{question.main}}?"</span>{{/link-to}}
+  </div>
+{{/each}}

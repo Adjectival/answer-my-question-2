@@ -1,12 +1,19 @@
-{{#link-to 'question' question.id}}<img class="smallimg" src="{{question.image}}" alt="{{question.notes}}"><div class="spaced"><div>Click to Answer!</div><div>Currently {{answerCount}} answers</div></div>{{/link-to}}
+{{#link-to 'question' question.id}}<img class="smallimg" src="{{question.image}}" alt="{{question.notes}}"><div class="spaced"><div class="computed">Click to Answer!</div><div class="blackback">Currently {{answerCount}} answers</div></div>{{/link-to}}
 <h2>"{{question.main}}?"</h2>
 <h3>by {{question.author}}</h3>
 {{question-popularity question}}
 
-{{#if notesHide}}
-  <button class="upsidedown" {{action 'unhideNotes'}}>Unhide Notes
-  </button>
-{{else}}
-  <h3 class="notes">{{question.notes}}</h3>
-  <button class="gone" {{action 'hideNotes'}}>Hide Notes</button>
-{{/if}}
+<div class="spaced">
+  <div>
+    {{#if notesHide}}
+      <button class="upsidedown" {{action 'unhideNotes'}}>Unhide Notes
+      </button>
+    {{else}}
+      <h3 class="notes">{{question.notes}}</h3>
+      <button class="gone" {{action 'hideNotes'}}>Hide Notes</button>
+    {{/if}}
+  </div>
+  <div>
+    <button {{action 'addToFaves' question}}>Favorite</button>
+  </div>
+</div>

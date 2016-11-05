@@ -1,14 +1,14 @@
-<div>
-  {{#each favoriteQuestions.questions as |question|}}
-    {{question}}
-  {{/each}}
-</div>
-{{new-question saveQuestion="saveQuestion"}}
+<div class="spaced">
+  {{new-question saveQuestion="saveQuestion"}}
 
-<div class="flexed">
-  {{#each model.questions as |question|}}
-     <div class="question-card">
-      {{question-tile question=question destroyQuestion="destroyQuestion" update="update"}}
-     </div>
-  {{/each}}
+  <div class="flexed">
+    {{#each model.questions as |question|}}
+       <div class="card-big">
+        {{question-tile question=question destroyQuestion="destroyQuestion" update="update"}}
+       </div>
+    {{/each}}
+  </div>
+  <div class="card-big">
+    {{favorite-list question=question}}
+  </div>
 </div>
