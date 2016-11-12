@@ -1,15 +1,17 @@
+
 .menu {
   font-size: 2em;
   color: firebrick;
 }
 
 body {
+	box-sizing: border-box;
   background-color: #050016;
   background-image: url('/assets/images/night_woods.jpg');
   background-position: bottom;
   background-repeat: no-repeat;
   color: firebrick;
-  font-family: fantasy;
+  font-family: Desdemona, fantasy;
 }
 
 .question-item {
@@ -42,9 +44,9 @@ button {
   border-radius: 20px;
   padding: 8px;
   background-color: red;
-  font-family: fantasy;
+  font-family: Desdemona, fantasy;
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 12px;
   margin: 20px;
 }
 .gone {
@@ -54,3 +56,4 @@ button {
   background-color: black;
   color: seashell;
 }
+

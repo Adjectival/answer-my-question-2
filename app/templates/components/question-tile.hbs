@@ -1,6 +1,6 @@
-{{#link-to 'question' question.id}}<img class="smallimg" src="{{question.image}}" alt="{{question.notes}}"><div class="spaced"><div class="computed">Click to Answer!</div><div class="blackback">Currently {{answerCount}} answers</div></div>{{/link-to}}
+{{#link-to 'question' question.id}}<img class="smallimg" src="{{question.image}}" alt="{{question.notes}}"><div class="spaced"><div class="authorship">Click to Answer!</div><div class="blackback">Currently {{answerCount}} answers</div></div>{{/link-to}}
 <h2>"{{question.main}}?"</h2>
-<h3>by {{question.author}}</h3>
+<h3 class="authorship">by {{question.author}}</h3>
 {{question-popularity question}}
 
 <div class="spaced">
@@ -14,6 +14,6 @@
     {{/if}}
   </div>
   <div>
-    <button {{action 'addToFaves' question}}>Favorite</button>
+    <button class="fave-btn" {{action 'addToFaves' question}}>Favorite</button>
   </div>
 </div>
