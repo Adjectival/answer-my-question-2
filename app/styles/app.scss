@@ -1,3 +1,6 @@
+a {
+  color: inherit;
+}
 a:hover {
   text-decoration: none;
 }
@@ -9,7 +12,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   color: #65c3fc;
-  font-family: "Desdemona", "Prociono", serif;
+  font-family: 'BenguiatBold', serif;
   text-decoration: none;
 }
 // index tiles
@@ -37,19 +40,22 @@ body {
   max-height: 600px;
 }
 .blackback {
-  font-size: 16px;
-  background-color: black;
-  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  text-shadow: 2px 2px 2px firebrick,
+  -2px -2px 2px firebrick,
+  -2px 2px 2px firebrick,
+  2px -2px 2px firebrick;
+  font-family: 'SFDigitalReadout-Medium', sans-serif;
   margin-top: 8px;
   padding: 4px;
 }
 .authorship {
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-family: 'SFDigitalReadout-Medium', sans-serif;
+  font-size: 24px;
 }
 .helperText {
-  font-family: 'Lato', sans-serif;
-  font-size: 28px;
+  font-family: 'SFDigitalReadout-Medium', sans-serif;
+  font-size: 48px;
   color: seashell;
 }
 .notes {
@@ -63,14 +69,17 @@ body {
   color: firebrick;
 }
 .page-title:hover {
-  text-shadow: 5px 5px 8px red;
+  text-shadow: 2px 2px 4px red,
+  -2px -2px 4px red,
+  -2px 2px 4px red,
+  2px -2px 4px red;
 }
 .menu {
   font-size: 2em;
   color: firebrick;
 }
 .menu:hover {
-  text-shadow: 3px 3px 5px skyblue;
+  text-shadow: 3px 3px 5px white;
 }
 .field {
   border-radius: 8px;
@@ -113,7 +122,6 @@ button {
   color: black;
 }
 .fave-btn {
-  // font-family: 'Lato', sans-serif;
   padding: 12px;
   font-size: 24px;
   font-weight: bolder;
@@ -121,5 +129,8 @@ button {
 }
 button:hover {
   color: #ccc;
-  text-shadow: 3px 3px 5px red;
+  text-shadow: 2px 2px 4px red,
+  -2px -2px 4px red,
+  -2px 2px 4px red,
+  2px -2px 4px red;
 }

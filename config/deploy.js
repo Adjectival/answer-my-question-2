@@ -1,7 +1,7 @@
 module.exports = function(deployTarget) {  
   return {
     pagefront: {
-      app: 'answer-my-question',
+      app: 'stranger--questions',
       key: process.env.PAGEFRONT_KEY
     }
   };
