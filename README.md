@@ -1,6 +1,6 @@
 # Answer my Question 2 :smiling_imp::question::no_good:
 
-![screenshot](CR4.png)
+![screenshot](stranger-questions.png)
 
 ## Development Goals / This App...
 * A service has been implemented successfully.
@@ -19,15 +19,17 @@
 * One-to-many relationship exists between Question and Answers.
 * Employs custom styling.
 
-## Prerequisites
-You will need the following things properly installed on your computer.
+# [Demo Application at PageFront](https://strangerthings-questionboard.pagefrontapp.com/)
+
+## Installation prerequisites
+You will need the following software installed on your computer.
 
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
 * [Bower](http://bower.io/)
 * [Ember CLI](http://ember-cli.com/)
 
-## Installation
+Now:
 
 * `$ git clone <repository-url>` this repository's URL
 * `$ cd answer-my-question-2`
